@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-express",
+  "description": "Fullstack Vietnam lò đào tạo lập trình viên, designer chuyên nghiệp tại Sài Gòn. Chúng tôi là các chuyên gia uy tín trong lĩnh vực lập trình ứng dụng, thiết kế và sáng tạo. Gọi: 0 96 96 89 89 3",
+  "main": "app.js",
+  "authors": [
+    "FullStack VietNam"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fullstackvietnam/express-basic",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "k-sass-core": "^6.0.4",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "bootstrap": "^4.1.3",
+    "Sortable": "sortablejs#^1.6.0"
+  }
+}

@@ -1,0 +1,31 @@
+extends layout
+
+block content
+	.container
+		.row
+			.col
+				h1.mt-4 #{title}
+				table.table.table-bordered
+					thead
+						tr 
+							th #
+							th Product Code
+							th Product Name
+							th Product Price
+							th Product Flag
+							th Product Image
+							th Product Discount
+							th Product Ship
+							th Product Stock
+					tbody
+						- for(var user in data)
+							tr 
+								td #{data[user].id}
+								td #{data[user].productCode}
+								td #{data[user].productName}
+								td #{data[user].productPrice}
+								td #{data[user].flag}
+								td #{data[user].productImage}
+								td #{data[user].discount}
+								td #{data[user].shipping}
+								td #{data[user].stock}
